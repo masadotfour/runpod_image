@@ -1,4 +1,4 @@
-FROM runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404 # 追加パッケージ（必要最小限。サイズ肥大を避ける）
+FROM runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404
 
 
 RUN apt-get update -y \
